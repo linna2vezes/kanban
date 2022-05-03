@@ -1,0 +1,72 @@
+
+.ticket {
+    background-repeat: no-repeat;
+    background-position-x:10px;
+    background-position-y:11.5px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 0px;
+    border-radius: 4px 4px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;;
+    }
+
+.text {
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    justify-items: center;
+    font-size: 16px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    padding-left: 30px;
+    margin-top: 5px;
+
+}    
+
+.ticket__todo {
+
+    background-image: url("./todo.png");
+    background-color: #59B4D1;
+    border-top: 4px solid rgb(45, 157, 209);
+    /* cor do texto */
+    color: white;
+       
+    
+}
+
+.ticket__inprogress {
+
+    background-image: url("./inprogress.png");
+    background-color: #D0935A;
+    border-top: 4px solid rgb(171, 112, 57);
+     /* cor do texto */
+    color: white;
+    
+    
+}
+
+.ticket__review {
+
+    background-image: url("./review.png");
+    background-color: #945AD1;
+    border-top: 4px solid rgb(105, 52, 151);
+     /* cor do texto */
+    color: white;
+    
+}
+    
+
+.ticket__done {
+
+    background-image: url("./done.png");
+    background-color: #59D090;
+    border-top: 4px solid rgb(43, 163, 103);
+     /* cor do texto */
+    color: rgb(0, 0, 0);
+        
+}
+
