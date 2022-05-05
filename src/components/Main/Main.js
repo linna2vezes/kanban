@@ -3,7 +3,7 @@ import Column from "../Column/Column"
 
 
 
-function Main  ()  {
+const Main = () => {
 return (
 <main className= "main">
  
