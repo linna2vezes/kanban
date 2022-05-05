@@ -3,7 +3,7 @@ import Card from "../Card/Card"
 import { Fragment } from "react";
 
 
-function Column () {
+const Column = ()=>{
 
 return ( 
   
